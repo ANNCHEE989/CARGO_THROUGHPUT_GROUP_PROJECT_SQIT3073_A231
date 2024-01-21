@@ -7,7 +7,7 @@ from dash.dependencies import Input, Output
 from dash_table.Format import Format
 import plotly.express as px
 
-dash.register_page(__name__, path='/project3', name='TREND')
+dash.register_page(__name__, path='/Trend', name='TREND')
 
 
 cargo_throughput_data = pd.read_excel(r"C:\Users\qianh\OneDrive\Desktop\UUM\SEM 5\Python(1)\cargo data (2018-2023).xlsx",)
