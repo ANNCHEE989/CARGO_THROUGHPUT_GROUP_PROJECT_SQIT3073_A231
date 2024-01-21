@@ -10,7 +10,7 @@ import plotly.express as px
 import warnings
 warnings.filterwarnings('ignore')
 
-dash.register_page(__name__, path='/dashboard', name='FORECASTING')
+dash.register_page(__name__, path='/Forecasting', name='FORECASTING')
 
 # Import data
 cargo_throughput_data = pd.read_excel(r"C:\Users\qianh\OneDrive\Desktop\UUM\SEM 5\Python(1)\cargo data (2018-2023).xlsx",)
